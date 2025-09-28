@@ -1,0 +1,32 @@
+# Vercel Environment Variables
+# Add these in your Vercel dashboard under Settings > Environment Variables
+
+# API Configuration
+# For Vercel subdomain: https://bookncleanlaundry-api.vercel.app
+# For custom domain: https://api.yourdomain.com
+VITE_API_URL=https://api.bookncleanlaundry.com
+
+# Database (if using MongoDB Atlas)
+MONGODB_URI=your_mongodb_atlas_connection_string
+
+# JWT Secret
+JWT_SECRET=your_jwt_secret_key
+
+# Admin Credentials
+ADMIN_EMAIL=admin@bookncleanlaundry.com
+ADMIN_PASSWORD=your_admin_password
+ADMIN_NAME=Admin User
+
+# Email Configuration (if using email features)
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_app_password
+
+# CORS Configuration
+# For Vercel subdomain: https://bookncleanlaundry.vercel.app
+# For custom domain: https://yourdomain.com
+CLIENT_ORIGIN=https://bookncleanlaundry.com
+
+# Environment
+NODE_ENV=production
